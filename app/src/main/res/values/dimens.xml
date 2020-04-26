@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="image_btn_corner_radius">4dp</dimen>
+    <dimen name="image_btn_insert">5dp</dimen>
+</resources>

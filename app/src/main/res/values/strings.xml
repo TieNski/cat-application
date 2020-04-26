@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cat Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="more">More Cats</string>
+    <string name="about">About</string>
+    <string name="internet_trouble">Cat viewing requires internet</string>
+    <string name="about_bored_blago">Made this one evening because i was bored and i like cats.\nSend me an e-mail if you want other animals.\nHope you enjoy.\ne-mail : petrov3.17@gmail.com\nSource Code : github.com/TieNski </string>
+    <string name="zoom_enabled">Zoom enabled by the way</string>
+    <string name="save">Save to Gallery</string>
+    <string name="saved">Saved</string>
+    <string name="not_saved">Not Saved</string>
+    <string name="randomize">New Cats</string>
+</resources>
