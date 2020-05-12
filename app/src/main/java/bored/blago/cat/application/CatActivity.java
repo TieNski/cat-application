@@ -1,7 +1,5 @@
 package bored.blago.cat.application;
-import android.app.AlarmManager;
 import android.app.Dialog;
-import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -186,7 +184,7 @@ public class CatActivity extends AppCompatActivity {
             d.show();
             return true;
         } else if (item.getItemId() == R.id.action_random) {
-            ((AlarmManager) this.getSystemService(Context.ALARM_SERVICE)).set(AlarmManager.RTC, System.currentTimeMillis() + 150, PendingIntent.getActivity(this, 1, new Intent(this, CatActivity.class), PendingIntent.FLAG_CANCEL_CURRENT));
+            startActivity(new Intent(getApplicationContext(), CatActivity.class));
             System.exit(0);
         }
         return super.onOptionsItemSelected(item);
